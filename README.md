@@ -73,3 +73,7 @@ python get_score.py <GPU_ID> <VIDEO_NAME>
 ```
 ./train.sh <GPU_ID> <VIDEO_NAME>
 ```
+
+## Note
+The model and code are available for non-commercial research purposes only.
+* 12/2018: code released
