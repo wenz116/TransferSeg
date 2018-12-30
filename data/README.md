@@ -1,13 +1,11 @@
 This directory should contain the following data:
 ```
 $data
-¢u¢w¢w PASCAL
-¢x   ¢|¢w¢w VOC2011
-¢x       ¢u¢w¢w Annotations
-¢x       ¢u¢w¢w ImageSets
-¢x       ¢|¢w¢w JPEGImages
-¢|¢w¢w DAVIS
-    ¢u¢w¢w Annotations
-    ¢u¢w¢w ImageSets
-    ¢|¢w¢w JPEGImages
+â”œâ”€â”€ DAVIS
+â”‚   â”œâ”€â”€ Annotations
+â”‚   â””â”€â”€ JPEGImages
+â””â”€â”€ PASCAL
+    â””â”€â”€ VOC2011
+        â”œâ”€â”€ ImageSets
+        â””â”€â”€ JPEGImages
 ```
