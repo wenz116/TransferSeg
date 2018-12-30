@@ -79,7 +79,10 @@ def get_features_fc7(class_name):
     #print num_images
     
     # save the data
-    f = open('../cache/features/features_PASCAL_' + class_name + '_fc7.p', 'w')
+    feat_dir = '../cache/features'
+    if not os.path.exists(feat_dir):
+        os.makedirs(feat_dir)
+    f = open(feat_dir + '/features/features_PASCAL_' + class_name + '_fc7.p', 'w')
     cPickle.dump({'info': info, 'feature_mean': np.asarray(feature_mean), 'feature_max': np.asarray(feature_max)}, f)
     f.close()
 

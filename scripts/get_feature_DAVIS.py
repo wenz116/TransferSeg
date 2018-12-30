@@ -71,7 +71,6 @@ def get_features_fc7(video_name):
             os.makedirs(im_dir)
         im.save('{}/{:0>5d}.png'.format(im_dir, int(info_[1])))
         
-        #print 'Calculating feature vectors...'
         feature_mean.append(np.nanmean(fc7[:, np.nonzero(scoremap_tmp)[0], np.nonzero(scoremap_tmp)[1]], axis=1))
         feature_max.append(np.nanmax(fc7[:, np.nonzero(scoremap_tmp)[0], np.nonzero(scoremap_tmp)[1]], axis=1))
         info.append([info_[0], info_[1]])
@@ -79,7 +78,10 @@ def get_features_fc7(video_name):
     #print num_images
     
     # save the data
-    f = open('../cache/features/features_DAVIS_' + video_name + '_fc7.p', 'w')
+    feat_dir = '../cache/features'
+    if not os.path.exists(feat_dir):
+        os.makedirs(feat_dir)
+    f = open(feat_dir + '/features_DAVIS_' + video_name + '_fc7.p', 'w')
     cPickle.dump({'info': info, 'feature_mean': np.asarray(feature_mean), 'feature_max': np.asarray(feature_max)}, f)
     f.close()
 
