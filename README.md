@@ -50,38 +50,26 @@ cd TransferSeg
 
 * Go to the folder `scripts`.
 
-1. Compute optical flow of the input video. Run the code in MATLAB
-```
-compute_optical_flow('<VIDEO_NAME>')
-```
-The optical flow images will be saved at `data/DAVIS/Motion/480p/<VIDEO_NAME>/`.
+1. Compute optical flow of the input video. Run `compute_optical_flow('<VIDEO_NAME>')` in MATLAB. The optical flow images will be saved at `data/DAVIS/Motion/480p/<VIDEO_NAME>/`.
 
-2. Compute motion prior of the input video via minimum barrier distance. Run the code in MATLAB
-```
-get_prior('<VIDEO_NAME>')
-```
-The motion prior images will be saved at `data/DAVIS/Prior/480p/<VIDEO_NAME>/`.
+2. Compute motion prior of the input video via minimum barrier distance. Run `get_prior('<VIDEO_NAME>')` in MATLAB. The motion prior images will be saved at `data/DAVIS/Prior/480p/<VIDEO_NAME>/`.
 
-3. Extract features of each category in PASCAL VOC
+3. Extract features of each category in PASCAL VOC. The extracted features will be saved at `cache/features/`, named as `features_PASCAL_<CLASS_NAME>_fc7.p`.
 ```
 python get_feature_PASCAL.py <GPU_ID>
 ```
-The extracted features will be saved at `cache/features/`, named as `features_PASCAL_<CLASS_NAME>_fc7.p`.
 
-4. Extract features of the input video
+4. Extract features of the input video. The extracted features will be saved at `cache/features/`, named as `features_DAVIS_<VIDEO_NAME>_fc7.p`.
 ```
 python get_feature_DAVIS.py <GPU_ID> <VIDEO_NAME>
 ```
-The extracted features will be saved at `cache/features/`, named as `features_DAVIS_<VIDEO_NAME>_fc7.p`.
 
-5. Segment mining
+5. Segment mining. The selected segments will be saved at `data/DAVIS/Train/480p/<VIDEO_NAME>/`.
 ```
 python get_score.py <GPU_ID> <VIDEO_NAME>
 ```
-The selected segments will be saved at `data/DAVIS/Train/480p/<VIDEO_NAME>/`.
 
-6. Self learning
+6. Self learning. The trained models will be saved at `output/snapshot/`.
 ```
 ./train.sh <GPU_ID> <VIDEO_NAME>
 ```
-The trained models will be saved at `output/snapshot/`.
