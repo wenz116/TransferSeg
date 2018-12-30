@@ -1,0 +1,20 @@
+# Models
+*.caffemodel
+*.solverstate
+
+# Compiled/cached Python
+__pycache__/
+*.pyc
+*$py.class
+
+# Temporaries
+.ipynb_checkpoints/
+
+# Extracted features
+*.p
+
+# Data
+data/DAVIS/*
+data/PASCAL/*
+*.zip
+*.tar
