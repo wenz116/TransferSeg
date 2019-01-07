@@ -1,14 +1,18 @@
 # TransferSeg
 
-Caffe implementation of our method for transferring knowledge from seen objects in images to unseen objects in videos.
-
+Caffe implementation of our method for transferring knowledge from seen objects in images to unseen objects in videos. <br />
 Contact: Yi-Wen Chen (chenyiwena at gmail dot com)
+
+<p align="center">
+<img src="https://github.com/wenz116/TransferSeg/blob/master/figure/overview.png" width="75%">
+</p>
 
 ## Paper
 
 Unseen Object Segmentation in Videos via Transferable Representations <br />
-Yi-Wen Chen, Yi-Hsuan Tsai, Chu-Ya Yang, Yen-Yu Lin and Ming-Hsuan Yang <br />
-Asian Conference on Computer Vision (ACCV), 2018 (oral) <br />
+Yi-Wen Chen, [Yi-Hsuan Tsai](https://sites.google.com/site/yihsuantsai/home), Chu-Ya Yang, [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/) and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/index.html) <br />
+Asian Conference on Computer Vision (ACCV), 2018 (**oral**) <br />
+**Best Student Paper Award Honorable Mention**
 
 Please cite our paper if you find it useful for your research.
 
