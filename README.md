@@ -10,8 +10,8 @@ Contact: Yi-Wen Chen (chenyiwena at gmail dot com)
 ## Paper
 
 [Unseen Object Segmentation in Videos via Transferable Representations](https://arxiv.org/abs/1901.02444) <br />
-Yi-Wen Chen, [Yi-Hsuan Tsai](https://sites.google.com/site/yihsuantsai/home), Chu-Ya Yang, [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/) and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/index.html) <br />
-Asian Conference on Computer Vision (ACCV), 2018 (**oral**) <br />
+[Yi-Wen Chen](https://wenz116.github.io/), [Yi-Hsuan Tsai](https://sites.google.com/site/yihsuantsai/home), Chu-Ya Yang, [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/) and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/index.html) <br />
+*Asian Conference on Computer Vision (ACCV)*, 2018 (**oral**) <br />
 **Best Student Paper Award Honorable Mention**
 
 Please cite our paper if you find it useful for your research.
