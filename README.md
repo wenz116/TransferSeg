@@ -32,8 +32,11 @@ Please cite our paper if you find it useful for your research.
 ```
 @inproceedings{Chen_VOSTR_2020,
   author = {Yi-Wen Chen and Yi-Hsuan Tsai and Yen-Yu Lin and Ming-Hsuan Yang},
-  booktitle = {International Journal of Computer Vision (IJCV)},
+  journal = {International Journal of Computer Vision (IJCV)},
   title = {VOSTR: Video Object Segmentation via Transferable Representations},
+  volume = {128},
+  number = {4},
+  pages = {931-949},
   year = {2020}
 }
 ```
