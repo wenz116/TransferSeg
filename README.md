@@ -9,19 +9,32 @@ Contact: Yi-Wen Chen (chenyiwena at gmail dot com)
 
 ## Paper
 
+Please cite our paper if you find it useful for your research.
+
 [Unseen Object Segmentation in Videos via Transferable Representations](https://arxiv.org/abs/1901.02444) <br />
 [Yi-Wen Chen](https://wenz116.github.io/), [Yi-Hsuan Tsai](https://sites.google.com/site/yihsuantsai/home), Chu-Ya Yang, [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/) and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/index.html) <br />
 *Asian Conference on Computer Vision (ACCV)*, 2018 (**oral**) <br />
 **Best Student Paper Award Honorable Mention**
 
-Please cite our paper if you find it useful for your research.
-
 ```
 @inproceedings{Chen_TransferSeg_2018,
-  author = {Y.-W. Chen and Y.-H. Tsai and C.-Y. Yang and Y.-Y. Lin and M.-H. Yang},
+  author = {Yi-Wen Chen and Yi-Hsuan Tsai and Chu-Ya Yang and Yen-Yu Lin and Ming-Hsuan Yang},
   booktitle = {Asian Conference on Computer Vision (ACCV)},
   title = {Unseen Object Segmentation in Videos via Transferable Representations},
   year = {2018}
+}
+```
+
+[VOSTR: Video Object Segmentation via Transferable Representations](https://wenz116.github.io/files/IJCV20_VOSTR.pdf) <br />
+[Yi-Wen Chen](https://wenz116.github.io/), [Yi-Hsuan Tsai](https://sites.google.com/site/yihsuantsai/home), [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/) and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/index.html) <br />
+*International Journal of Computer Vision (IJCV)*, 2020 <br />
+
+```
+@inproceedings{Chen_VOSTR_2020,
+  author = {Yi-Wen Chen and Yi-Hsuan Tsai and Yen-Yu Lin and Ming-Hsuan Yang},
+  booktitle = {International Journal of Computer Vision (IJCV)},
+  title = {VOSTR: Video Object Segmentation via Transferable Representations},
+  year = {2020}
 }
 ```
 
